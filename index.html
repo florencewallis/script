@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<title>The Lecturer</title>
+<link rel="stylesheet" href="style.css" type="text/css" media="all">
+</head>
+
+<body>
+  <div id="observablehq-like-5a33a27e"></div>
+<div id="observablehq-ofme-5a33a27e"></div>
+<div id="observablehq-how-5a33a27e"></div>
+<p>Credit: <a href="https://observablehq.com/@florencewallis/ei1">Scene 1 by Florence Wallis</a></p>
+
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/@florencewallis/ei1@60.js?v=3";
+new Runtime().module(define, name => {
+  if (name === "like") return new Inspector(document.querySelector("#observablehq-like-5a33a27e"));
+  if (name === "ofme") return new Inspector(document.querySelector("#observablehq-ofme-5a33a27e"));
+  if (name === "how") return new Inspector(document.querySelector("#observablehq-how-5a33a27e"));
+});
+</script>
+</body>
+
+</html>
