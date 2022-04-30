@@ -1,5 +1,7 @@
 <html>
 <head>
+ background-color: #000000;
+   color: #09344e;
 <meta charset="UTF-8">
 <title>The Lecturer</title>
 <link rel="stylesheet" href="style.css" type="text/css" media="all">
