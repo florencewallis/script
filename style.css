@@ -15,11 +15,11 @@ body {
 /*
 .grid {
   position: absolute;
-  left:  25vw;
-  top:  6vw;
+  left:  100vw;
+  top:  100vw;
   display: grid;
   color: red;
-  font-family: DidotBold;
+  font-family: Helvetica, Arial, san-serif;
   font-size: 4.5vw;
   font-weight: bold;
   line-height: 1em;
