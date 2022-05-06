@@ -7,19 +7,20 @@
   </head>
   <body>
     
-    <div id="observablehq-like-22e71e39"></div>
-    <div id="observablehq-ofme-22e71e39"></div>
-    <div id="observablehq-how-22e71e39"></div>
+  <div id="observablehq-l-f7216eb9"></div>
+<div id="observablehq-m-f7216eb9"></div>
+<div id="observablehq-o-f7216eb9"></div>
+<p>Credit: <a href="https://observablehq.com/@florencewallis/like">Projections by Florence Wallis</a></p>
 
-
-    <script type="module">
-    import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-    import define from "https://api.observablehq.com/@florencewallis/like?cells=l%2Cm%2Co";
-    new Runtime().module(define, name => {
-      if (name === "like") return new Inspector(document.querySelector("#observablehq-like?cells=l%2Cm%2Co"));
-   
-    });
-    </script>
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/@florencewallis/like.js?v=3";
+new Runtime().module(define, name => {
+  if (name === "l") return new Inspector(document.querySelector("#observablehq-l-f7216eb9"));
+  if (name === "m") return new Inspector(document.querySelector("#observablehq-m-f7216eb9"));
+  if (name === "o") return new Inspector(document.querySelector("#observablehq-o-f7216eb9"));
+});
+</script>
 
   </body>
 </html>
