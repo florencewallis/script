@@ -10,15 +10,14 @@
     <div id="observablehq-like-22e71e39"></div>
     <div id="observablehq-ofme-22e71e39"></div>
     <div id="observablehq-how-22e71e39"></div>
-   
+   https://observablehq.com/embed/@florencewallis/like?cells=l%2Cm%2Co
 
     <script type="module">
     import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-    import define from "https://api.observablehq.com/@florencewallis/ei1.js?v=3";
+    import define from "https://api.observablehq.com/@florencewallis/like?cells=l%2Cm%2Co";
     new Runtime().module(define, name => {
-      if (name === "like") return new Inspector(document.querySelector("#observablehq-like-22e71e39"));
-      if (name === "ofme") return new Inspector(document.querySelector("#observablehq-ofme-22e71e39"));
-      if (name === "how") return new Inspector(document.querySelector("#observablehq-how-22e71e39"));
+      if (name === "like") return new Inspector(document.querySelector("#observablehq-like?cells=l%2Cm%2Co"));
+   
     });
     </script>
 
